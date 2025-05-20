@@ -1,5 +1,7 @@
 import unittest
-from models import Order, Customer, Coffee
+from customer import Customer
+from coffee import Coffee
+from order import Order
 
 class TestOrder(unittest.TestCase):
     def test_order_initialization(self):

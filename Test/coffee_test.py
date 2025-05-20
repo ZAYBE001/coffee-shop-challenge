@@ -1,5 +1,7 @@
 import unittest
-from models import Coffee
+from coffee import Coffee
+from customer import Customer
+from order import Order
 
 class TestCoffee(unittest.TestCase):
     def test_name_property(self):
